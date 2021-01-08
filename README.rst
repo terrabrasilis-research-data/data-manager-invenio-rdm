@@ -1,25 +1,15 @@
-..
-    Copyright (C) 2019 CERN.
-    Copyright (C) 2019 Northwestern University.
+# TerraBrasilis Research Data - Data Manager Invenio RDM
+The Data Manager is responsible for the support portion of the platform. In the context of infrastructure, this includes the creation, management and delivery of Research Data Repositories. It uses Invenio Research Data Managemen.
 
-    Invenio App RDM is free software; you can redistribute it and/or modify
-    it under the terms of the MIT License; see LICENSE file for more details.
+Invenio RDM Installation
+------------
 
-=================
- Invenio App RDM
-=================
+1. `cd ...`
+2. `cd ..r`
+3. run the following command: `docker-compose up -d --build` # it will run all the needed containers
+4. run the following command: `docker exec -it terrabrasilisrd_ckan /usr/local/bin/ckan-paster --plugin=ckan sysadmin -c /etc/ckan/production.ini add ckanadmin`
 
-.. image:: https://github.com/inveniosoftware/invenio-app-rdm/workflows/CI/badge.svg
-        :target: https://github.com/inveniosoftware/invenio-app-rdm/actions?query=workflow%3ACI
+Then you can open the Invenio RDM at [http://localhost:5000.](http://localhost:5000.).
 
-.. image:: https://img.shields.io/coveralls/inveniosoftware/invenio-app-rdm.svg
-        :target: https://coveralls.io/r/inveniosoftware/invenio-app-rdm
-
-.. image:: https://img.shields.io/github/license/inveniosoftware/invenio-app-rdm.svg
-        :target: https://github.com/inveniosoftware/invenio-app-rdm/blob/master/LICENSE
-
-Invenio Research Data Management
-
-Further documentation is available on
-https://invenio-app-rdm.readthedocs.io/
+See the `Invenio RDM Documentation <https://invenio-app-rdm.readthedocs.io/`_ for installation instructions.
 
