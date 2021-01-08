@@ -1,5 +1,5 @@
-# TerraBrasilis Research Data - Data Manager Invenio RDM
-
+TerraBrasilis Research Data - Data Manager Invenio RDM
+------------
 The Data Manager is responsible for the support portion of the platform. In the context of infrastructure, this includes the creation, management and delivery of Research Data Repositories. It uses Invenio Research Data Managemen.
 
 Invenio RDM Installation
